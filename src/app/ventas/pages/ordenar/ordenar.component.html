@@ -1,0 +1,29 @@
+<div class="text-layout">
+    <h1>Pipes personalizados</h1>
+    <p>Pipes creados por {{'nosotros' | mayusculas:enMayusculas }} </p>
+</div>
+
+<button pButton
+        label="toggle mayusculas"
+        icon="pi pi-check"
+        class="p-button-raised"
+(click)="cambiar()"
+
+>
+</button>
+
+<p-toolbar>
+    <div class="p-toolbar-group-left">
+        <p-button label="New" icon="pi pi-plus"></p-button>
+        <p-button label="Upload" icon="pi pi-upload" styleClass="p-button-success"></p-button>
+
+        <i class="pi pi-bars"></i>
+
+    </div>
+
+    <div class="p-toolbar-group-right">
+        <p-button icon="pi pi-search"></p-button>
+        <p-button icon="pi pi-calendar" styleClass="p-button-success"></p-button>
+        <p-button icon="pi pi-times" styleClass="p-button-danger"></p-button>
+    </div>
+</p-toolbar>
